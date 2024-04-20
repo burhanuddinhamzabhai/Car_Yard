@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Car Yard</string>
+    <string name="car_model_text">Text_Make_Model</string>
+    <string name="car_year_text">Text_Year_of_Manufacture</string>
+    <string name="car_color_text">Text_Color</string>
+    <string name="car_usage_text">Text_Rego</string>
+    <string name="car_price_text">Text_Price</string>
+    <string name="car_model_edit_text">Edit_Make_Model</string>
+    <string name="car_year_edit_text">Edit_Year_of_Manufacture</string>
+    <string name="car_color_edit_text">Edit_Color</string>
+    <string name="car_usage_edit_text">Edit_Rego</string>
+    <string name="car_price_edit_text">Edit_Price</string>
+    <string name="car_model_label">Make &amp; Model</string>
+    <string name="car_year_label">Year of Manufacture</string>
+    <string name="car_color_label">Color</string>
+    <string name="car_usage_label">Rego</string>
+    <string name="car_price_label">Price</string>
+    <string name="car_list_recycler_view">car_list_recycler_view</string>
+    <string name="detail_view_pager">detail_view_pager</string>
+    <string name="save_button">save_button</string>
+    <string name="new_car_button">new_car_button</string>
+</resources>

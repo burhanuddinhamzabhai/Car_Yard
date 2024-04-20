@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/car_model_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/car_year_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/car_model_text"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/car_color_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="8px"
+        android:layout_below="@id/car_model_text"
+        android:layout_toEndOf="@id/car_year_text"/>
+    <TextView
+        android:id="@+id/car_usage_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="8px"
+        android:layout_below="@id/car_model_text"
+        android:layout_toEndOf="@id/car_color_text" />
+    <TextView
+        android:id="@+id/car_price_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="8px"
+        android:layout_below="@id/car_model_text"
+        android:layout_toEndOf="@id/car_usage_text" />
+</RelativeLayout>
